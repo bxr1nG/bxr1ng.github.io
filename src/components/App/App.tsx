@@ -1,5 +1,6 @@
 import {Wrapper, Section, Title, ColorizedTitle} from "./styles";
 import BubbleBackground from "../BubbleBackground/BubbleBackground";
+import Contacts from "../Contacts/Contacts";
 
 const App = () => {
     return (
@@ -10,7 +11,9 @@ const App = () => {
                     <br/>
                     I'm a frontend developer.</Title>
             </Section>
-            <Section>Second</Section>
+            <Section>
+                <Contacts/>
+            </Section>
             <Section>Third</Section>
             <Section>Fourth</Section>
             <Section>Fifth</Section>
