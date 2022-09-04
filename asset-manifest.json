@@ -1,13 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.7d63835d.css",
-    "main.js": "/static/js/main.0a67f5d1.js",
+    "main.js": "/static/js/main.b0c6e1d9.js",
+    "static/media/telegram.jpg": "/static/media/telegram.436665705934bc540280.jpg",
+    "static/media/github.jpg": "/static/media/github.1eb8c23c8364df5edfae.jpg",
+    "static/media/linkedin.jpg": "/static/media/linkedin.562f8ab54cb4e580f556.jpg",
+    "static/media/resume.jpg": "/static/media/resume.dae526dbd5e281e3c578.jpg",
+    "static/media/gmail.jpg": "/static/media/gmail.5624b8cac4e5d5082b3a.jpg",
+    "static/media/resume.svg": "/static/media/resume.8a6bf515cbcce26d6a75e0fc96a5ebf4.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.d09d64fe30b941c2d5dba4695179f496.svg",
+    "static/media/github.svg": "/static/media/github.fc0ffe042a9582d2a394e1c609baa9f2.svg",
     "index.html": "/index.html",
+    "static/media/telegram.svg": "/static/media/telegram.31dd22bfb31325eb6026ab57b12abd68.svg",
+    "static/media/gmail.svg": "/static/media/gmail.aa616dc99180887a3d97f20ae13f64c4.svg",
     "main.7d63835d.css.map": "/static/css/main.7d63835d.css.map",
-    "main.0a67f5d1.js.map": "/static/js/main.0a67f5d1.js.map"
+    "main.b0c6e1d9.js.map": "/static/js/main.b0c6e1d9.js.map"
   },
   "entrypoints": [
     "static/css/main.7d63835d.css",
-    "static/js/main.0a67f5d1.js"
+    "static/js/main.b0c6e1d9.js"
   ]
 }
