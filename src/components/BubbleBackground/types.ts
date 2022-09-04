@@ -95,13 +95,14 @@ class Canvas {
     ctx: CanvasRenderingContext2D;
     crossingColor: string;
 
-    constructor(canvas: HTMLCanvasElement,
-                ctx: CanvasRenderingContext2D,
-                circleRadius: number,
-                circleRatio: number,
-                circleSpeed: number,
-                circleColor: string,
-                circleCrossingColor: string
+    constructor(
+        canvas: HTMLCanvasElement,
+        ctx: CanvasRenderingContext2D,
+        circleRadius: number,
+        circleRatio: number,
+        circleSpeed: number,
+        circleColor: string,
+        circleCrossingColor: string
     ) {
         this.canvas = canvas;
         this.ctx = ctx;

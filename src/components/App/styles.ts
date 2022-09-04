@@ -24,7 +24,6 @@ export const Section = styled.div`
 
 export const Title = styled.h1`
   display: inline;
-  font-size: 2.5rem;
   font-weight: 300;
   text-align: center;
   color: #fff;
@@ -32,10 +31,19 @@ export const Title = styled.h1`
   line-height: 1.25;
   cursor: default;
   user-select: none;
+
+  @media (min-width:320px)  {
+    font-size: 1.5rem;
+  }
+  @media (min-width:801px)  {
+    font-size: 2rem;
+  }
+  @media (min-width:1025px) {
+    font-size: 2.5rem;
+  }
 `
 
 export const ColorizedTitle = styled(Title)`
   color: #ff4c29;
   font-weight: 400;
-
 `
