@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
   }
 `
 
+// TODO: add media queries for mobile & tablet to disable hover effect
 export const Block = styled.div<{ image: string }>`
   position: relative;
   cursor: pointer;
@@ -32,14 +33,9 @@ export const Block = styled.div<{ image: string }>`
       flex: 3;
     }
   }
-
-  @media (hover: none) and (pointer: coarse) {
-    &:hover {
-      flex: 1;
-    }
-  }
 `
 
+// TODO: add media queries for mobile & tablet to disable hover effect
 export const ColorBackground = styled.div<{ color: string }>`
   position: absolute;
   width: 100%;
@@ -53,12 +49,6 @@ export const ColorBackground = styled.div<{ color: string }>`
 
   &:hover {
     opacity: 0;
-  }
-
-  @media (hover: none) and (pointer: coarse) {
-    &:hover {
-      opacity: 1;
-    }
   }
 `
 
